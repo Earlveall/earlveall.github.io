@@ -1,17 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home-EarlVeall</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>earlveall</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r90/three.min.js"></script>
 </head>
 
 <body>
-    
-      <img src="back.svg" alt="svg" />
+    <script>
+        function imageClick(url) {
+            window.location = url;
+        }
+    </script>
 
-      
+    <div id="info">
+        <img src="main.png" width=10% height=10% >
+    </div>
+    <div id="buttons">
+        <img src="spoti.png" width=5% height=5% style="padding-right:3%">
+        <img src="soundcloud.png" width=6% height=6% style="padding-right:3%" onclick="imageClick('https://soundcloud.com/earl-veall')">
+
+
+    </div>
+
+
+    <div id="world"></div>
+    <script src="script.js"></script>
+
+
+
+
 </body>
+
 </html>
